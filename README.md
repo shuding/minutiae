@@ -188,8 +188,8 @@ This is better performance than using inline styles or minutiae.
 
 ## Features
 
-- Caching: the same CSS written in two places uses the same class.
-- Atomic: each declaration is split into it's own class
+- Caching: the same CSS written in two places uses the same class
+- Atomic: each declaration is split into an invidual class
 - Scoped styles: generated class names are prefixed with `.z-`
 - Prefixing: vendor specific declarations like `-moz-placeholder`
 - Minified: appended styles are compressed
