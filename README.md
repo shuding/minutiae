@@ -2,7 +2,7 @@
 
 > the small, precise details.
 
-Minutiae is a small replacement for writing inline styles. Runtime by default to complement a static CSS solution like [Treat]() or [CSS Modules]().
+Minutiae is a small replacement for writing inline styles. Runtime by default to complement a static CSS solution like [Treat](https://seek-oss.github.io/treat/) or [CSS Modules](https://github.com/css-modules/css-modules).
 
 <br />
 
@@ -160,7 +160,7 @@ CSS Variables are a great way to use dynamic values in your static CSS. Minutiae
 
 ## When _not_ to use minutiae
 
-Static is best. If you can, specify your styling states statically and toggle them using [classnames]().
+Static is best. If you can, specify your styling states statically and toggle them using [classnames](https://github.com/JedWatson/classnames).
 
 ```js
 // Your static styles
@@ -193,6 +193,8 @@ This is better performance than using inline styles or minutiae.
 - Scoped styles: generated class names are prefixed with `.z-`
 - Prefixing: vendor specific declarations like `-moz-placeholder`
 - Minified: appended styles are compressed
+
+<br />
 
 ## Credits
 
